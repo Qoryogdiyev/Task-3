@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  background-color: rgb(17, 124, 58);
+}
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.box {
+  width: 600px;
+  margin-top: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  padding: 0 30px;
+  background-image: url("./img/bicycle.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 0 200px;
+}
+.box-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+.box-title {
+  font-family: "Roboto", "arial", sans-serif;
+  font-weight: 700;
+  margin-left: 40px;
+}
+.button-acc {
+  width: 50px;
+  height: 50px;
+  padding: 0;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  margin-right: 50px;
+  cursor: pointer;
+}
+.button-acc:hover {
+  box-shadow: 3px 3px 3px 0 rgb(153, 153, 153),
+    -3px -3px 3px 0 rgb(153, 153, 153), -3px 3px 3px 0 rgb(153, 153, 153),
+    3px -3px 3px 0 rgb(153, 153, 153);
+}
+.button-img {
+  margin: 0;
+  padding: 4px;
+}
+.box-text {
+  text-align: center;
+  font-family: "Roboto", "arial", sans-serif;
+  font-weight: 400;
+  color: #ccc;
+  margin-bottom: 30px;
+}
+.box-one {
+  padding-bottom: 200px;
+}
+.box-two {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.box-three {
+  list-style-type: none;
+}
+.box-four {
+  list-style-type: none;
+  margin-right: 40px;
+  font-family: "Roboto", "arial", sans-serif;
+  font-weight: 500;
+}
+.box-fiwe {
+  font-family: "Roboto", "arial", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
